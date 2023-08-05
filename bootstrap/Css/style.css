@@ -1,0 +1,45 @@
+a{
+    text-decoration: none;
+}
+
+nav ul li a{
+    color: #fff;
+}
+
+body {
+  color: #fff;
+  font-family: "Roboto", "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.5;
+  background: #1e202b;
+}
+
+section{
+    padding: 100px 0;
+}
+
+#home{
+    background-image:url(../images/banner.png);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 65vh;    
+}
+
+.today{
+    background-color: rgb(3, 81, 81);
+}
+
+.tomorrow{
+    background-color: rgb(0, 0, 0);
+}
+
+.afterTomorrow{
+    background-color: rgb(10, 19, 47);
+}
+
+.deg{
+font-size: 90px;
+font-weight: 700
+}
